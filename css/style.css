@@ -227,6 +227,7 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   .slider_section .carousel-inner .carousel-item.slide:nth-child(1){
     width: 100%;
@@ -239,6 +240,7 @@ body{
   .slider_section .carousel-inner .carousel-item.slide:nth-child(3){
     width: 100%;
     background-image:url(../images/rangoli-farsan-snacks.avif);
+
   }
   .slider_section .carousel-inner .carousel-item img{
     position: relative;
@@ -419,7 +421,7 @@ body{
   }
   .about_section .right_cont h3{
     font-size: 30px;
-    color: #f10909;
+    color: #30bf13;
     margin: 0px;
     margin-bottom: 10px;
   }
@@ -515,7 +517,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(204, 9, 9, 0.65);
+    background-color: rgba(0 103 52 / 75%);
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -572,9 +574,9 @@ body{
     -o-transition: all 0.5s ease;
   }
   .news_list .item .news_overlap .overlay .text a:hover{
-    background: #f10909;
+    background: #30bf13;
     color: #fff;
-    border: 2px solid #f10909;
+    border: 2px solid #30bf13;
   }
   .news_list .item .news_cont{
     padding: 25px 15px; 
@@ -585,7 +587,7 @@ body{
     font-size: 20px;
     text-transform: capitalize;
     margin-bottom: 10px;
-    color: #f10909; 
+    color: #30bf13; 
     font-family: "Josefin Sans", sans-serif;
     font-weight: 700;
   }
@@ -612,17 +614,17 @@ body{
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     display: block;
-    border: 2px solid #f10909;
+    border: 2px solid #30bf13;
     width: 50%;
     height: 40px;
     line-height: 35px;
     font-weight: 600;
-    background: #f10909;
+    background: #30bf13;
     text-align: center;
   }
   .news_list .item .news_cont a:hover{
     background: transparent;
-    color: #f10909;
+    color: #30bf13;
   }
   .news_list .owl-dots{
     text-align: center;
@@ -642,12 +644,12 @@ body{
     outline: none;
   }
   .news_list .owl-dots button:hover{
-    color: #f10909;
+    color: #30bf13;
   }
   .news_list .owl-dots button:focus{
     box-shadow: none;
     border:none;
-    background-color: #f10909;
+    background-color: #30bf13;
   }
   .news_list .owl-nav{
     position: relative;
@@ -688,7 +690,7 @@ body{
     font-family: "Cookie", sans-serif;
     display: block;
     font-size: 30px;
-    color: #f10909;
+    color: #30bf13;
   }
   .all_sec_title h2{
     font-size: 40px;
@@ -764,7 +766,7 @@ body{
     transform: translateX(-50%);
     width: 50px;
     height: 2px;
-    background: #f10909;
+    background: #30bf13;
   }
   .menu_list .items{
     border: 1px solid #dee2e6;
@@ -801,7 +803,7 @@ body{
   }
   .menu_list .items ul li h6{
     font-size: 13px;
-    color: #f10909;
+    color: #30bf13;
     position: absolute;
     left: 0px;
     top: 8px;
@@ -990,9 +992,9 @@ body{
   }
   .submit_btn button{
     padding: 12px 30px;
-    border: 2px solid #f10909;
+    border: 2px solid #30bf13;
     box-shadow: none;
-    background: #f10909;
+    background: #30bf13;
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -1006,11 +1008,11 @@ body{
     outline: none;
   }
   .submit_btn button:focus{
-    border: 2px solid #f10909;
+    border: 2px solid #30bf13;
     box-shadow: none;
   }
   .submit_btn button:hover{
-    background: #f10909;
+    background: #30bf13;
   }
   
   
@@ -1082,11 +1084,11 @@ body{
   }
   
   .clients_section .carousel-indicators li{
-    border: 2px solid #f10909;
+    border: 2px solid #30bf13;
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #f10909;
+    background: #30bf13;
   }
   .clients_section .carousel-indicators li.active{
     background-color: #fff;
@@ -1215,7 +1217,7 @@ body{
   .news_section .news_list .item .news_cont ul li i{
     display: inline-block;
     font-size: 15px;
-    color: #f10909;
+    color: #30bf13;
     margin: 0px;
     position: static;
     transform: translate(0px);
@@ -1255,7 +1257,7 @@ body{
     text-align: left;
   }
   .news_section .news_list .item .news_cont a:hover{
-    color: #f10909;
+    color: #30bf13;
   }
   
   .our_client_sec .all_sec_title h2{
@@ -1314,9 +1316,9 @@ body{
     margin-top: 10px;
   }
   .footer_section .footer_logo i:hover{
-    background-color: #f10909;
+    background-color: #30bf13;
     color: #fff;
-    border: 1px solid #f10909;
+    border: 1px solid #30bf13;
   }
   .footer_section .footer_head h3{
     color: #fff;
@@ -1340,7 +1342,7 @@ body{
     font-weight: 400;
   }
   .footer_section .menu ul li a:hover{
-    color: #f10909;
+    color: #30bf13;
     margin-left: 10px;
   }
   .footer_section .contact_sec{
@@ -1377,7 +1379,7 @@ body{
     top: 10px;
     height: 50px;
     width: 50px;
-    background-color: #f10909;
+    background-color: #30bf13;
     color: #fff;
     border: none;
     outline: none;
@@ -1402,7 +1404,7 @@ body{
     -ms-transition: all 0.5s ease;
   }
   .footer_section .copy_right p a:hover{
-    color: #f10909;
+    color: #30bf13;
   }
   
   /* Scrool Top */
@@ -1510,7 +1512,7 @@ body{
     right:-15px;
   }
   .sub_banner_section .sub_title ul li a:hover{
-    color: #f10909;
+    color: #30bf13;
   }
   
   .about_section_inner{
@@ -1593,11 +1595,11 @@ body{
   .contact_part .submit_btn button:hover:after{
     width: 100%;
     right: 0px;
-    background-color: #f10909;
+    background-color: #30bf13;
   }
   .contact_part .submit_btn button:hover{
     color: #fff;
-    border: 1px solid #f10909;
+    border: 1px solid #30bf13;
   }
   
   .contact_location{
@@ -1621,7 +1623,7 @@ body{
     left: 5px;
     top: 5px;
     font-size: 22px;
-    color: #f10909;
+    color: #30bf13;
   }
   .contact_location .itme .item_inner p{
     padding-left: 38px;
